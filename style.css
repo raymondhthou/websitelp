@@ -7,8 +7,6 @@
 
 body {
     font-family: Roboto, sans-serif;
-    /* width: 100vw;
-    height: 100vh; */
 }
 
 #logo {
@@ -45,7 +43,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 0.25rem;
 }
 
 ul {
@@ -117,7 +115,7 @@ button {
     align-items: center;
     padding: 1.5rem;
     margin: 1rem;
-    gap: 1em;
+    gap: 4em;
 }
 
 .containerbox span {
@@ -133,4 +131,28 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#textquote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.rightquote {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.leftquote {
+    flex: 1;
 }
