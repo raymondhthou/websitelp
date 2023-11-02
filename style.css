@@ -81,6 +81,7 @@ ul {
     padding: 2.5em;
     margin: 1em 0 1em 0;
     width: 30%;
+
 }
 
 button {
@@ -156,6 +157,7 @@ button {
 .rightquote {
     display: flex;
     justify-content: flex-end;
+    margin-right: 3em;
 }
 
 .containersignup {
